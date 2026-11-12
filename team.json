@@ -1,0 +1,11 @@
+{
+  "name": "Your Team Name",
+  "tagline": "One sentence: what you do for your customers.",
+  "link": "Source",
+  "chain": "A",
+  "about": "Who you are and what you are good at. Replace this with two or three sentences.",
+  "members": [
+    { "name": "First Last", "github": "github-username", "role": "e.g. operations lead" }
+  ],
+  "how_to_order": "Tell customers how to place an order with you. (The class will agree on a standard later; for now, write what you think works.)"
+}

@@ -1,0 +1,10 @@
+name: Contact us
+description: Send this team a message.
+body:
+  - type: textarea
+    id: message
+    attributes:
+      label: Message
+      description: Who are you, and what do you need?
+    validations:
+      required: true

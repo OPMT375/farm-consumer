@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Storefront</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <p class="eyebrow" id="eyebrow">OPMT 375 Supply Lab</p>
+    <h1 id="name">Loading…</h1>
+    <p class="tagline" id="tagline"></p>
+  </div>
+</header>
+<main class="wrap">
+  <section>
+    <h2>About us</h2>
+    <p id="about"></p>
+  </section>
+  <section>
+    <h2>What we offer</h2>
+    <div id="catalog" class="cards"></div>
+  </section>
+  <section>
+    <h2>How to order</h2>
+    <p id="how"></p>
+    <p><a id="contact" class="button" href="#">Contact us</a></p>
+  </section>
+  <section>
+    <h2>Team</h2>
+    <ul id="members" class="members"></ul>
+  </section>
+  <p class="err" id="err"></p>
+</main>
+<footer class="wrap small">Page content comes from <code>team.json</code> and <code>catalog.json</code> in this repo.</footer>
+<script src="app.js"></script>
+</body>
+</html>
