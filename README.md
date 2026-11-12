@@ -10,6 +10,16 @@ This repo is your firm's home in the OPMT 375 Supply Lab. Its web page is your s
 4. After about a minute, your storefront is live at `https://<owner>.github.io/<repo>/`.
 5. Join the class registry (see the registry repo's README).
 
+## Show parties from Supabase
+
+The page displays rows from the public `parties` table as cards. To connect it to your project:
+
+1. In `app.js`, set `supabaseUrl` and `supabaseAnonKey` to the Project URL and anon/public key from Supabase → Project Settings → API.
+2. Run `supabase/spine.sql` in the Supabase SQL Editor if you have not already. The script creates the `parties` table and its public read policy.
+3. Reload the page. The cards display each party's name, role, GLN, county, and team.
+
+The anon/public key is intended for browser use and is restricted by your Row Level Security policies. Never expose the `service_role` key in this page or any browser code.
+
 ## Add your database (Session 4)
 
 Your firm keeps its records in a free Supabase project. The file **`supabase/spine.sql`** creates the four tables every team shares: `parties`, `products`, `lots` and `events`.

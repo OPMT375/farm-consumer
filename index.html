@@ -24,6 +24,11 @@
     <div id="catalog" class="cards"></div>
   </section>
   <section>
+    <h2>Parties in the supply chain</h2>
+    <p id="parties-status" class="muted" role="status" aria-live="polite">Loading parties…</p>
+    <div id="parties" class="cards" aria-live="polite"></div>
+  </section>
+  <section>
     <h2>How to order</h2>
     <p id="how"></p>
     <p><a id="contact" class="button" href="#">Contact us</a></p>
@@ -34,7 +39,8 @@
   </section>
   <p class="err" id="err"></p>
 </main>
-<footer class="wrap small">Page content comes from <code>team.json</code> and <code>catalog.json</code> in this repo.</footer>
+<footer class="wrap small">Page content comes from this repository and the public parties table in Supabase.</footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="app.js"></script>
 </body>
 </html>
