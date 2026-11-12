@@ -7,8 +7,8 @@
 
   // Replace these with the Project URL and anon/public key from Supabase → Project Settings → API.
   // Never put a service_role key in browser code.
-  const supabaseUrl = 'https://YOUR_PROJECT_ID.supabase.co';
-  const supabaseAnonKey = 'YOUR_SUPABASE_ANON_KEY';
+  const supabaseUrl = 'https://fuamftopbbcqiansbefh.supabase.co';
+  const supabaseAnonKey = 'sb_publishable_ETsgZUurMo_v5Wha0YXYsg_I80Bhhix';
 
   async function load(file) {
     const response = await fetch(file + '?v=' + Date.now());
