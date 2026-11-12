@@ -1,4 +1,4 @@
-# Team storefront
+# Farm Consumer Storefront
 
 This repo is your firm's home in the OPMT 375 Supply Lab. Its web page is your storefront. Its Issues tab is where other teams will contact you, and later where they will send orders.
 
